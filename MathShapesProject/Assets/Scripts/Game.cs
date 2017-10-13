@@ -8,13 +8,9 @@ public class Game : MonoBehaviour {
     private int coins;
 	// Use this for initialization
 	void Start () {
-        for (int i = 0; i < 20; i++)
+		for(int i = 0; i <10; i++)
         {
             coins++;
-            if (coins > 10)
-            {
-                Debug.Log(">10");
-            }
         }
 	}
 	
