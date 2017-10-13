@@ -5,7 +5,7 @@ using UnityEngine;
 public class Game : MonoBehaviour {
 
 
-    private int coins;
+    private int Free_Gold;
 	// Use this for initialization
 	void Start () {
 		
